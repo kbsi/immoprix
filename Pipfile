@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+numpy = "*"
+ipykernel = "*"
+tensorflow = "*"
+scikit-learn = "*"
+scipy = "*"
+xgboost = "*"
+catboost = "*"
+lightgbm = "*"
+sqldf = "*"
+pandasql = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
